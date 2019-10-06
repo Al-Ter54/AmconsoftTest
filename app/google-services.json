@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "601556882068",
+    "firebase_url": "https://amconsofttest-255012.firebaseio.com",
+    "project_id": "amconsofttest-255012",
+    "storage_bucket": "amconsofttest-255012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601556882068:android:53ff19fa06bb3771b85a81",
+        "android_client_info": {
+          "package_name": "com.tertychnyi.alex.amconsofttest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601556882068-l2i083a3ibo6e021ji0npe2tms6aq1vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tertychnyi.alex.amconsofttest",
+            "certificate_hash": "10d0a4b8f653d832e7441be46748e5a69a70526b"
+          }
+        },
+        {
+          "client_id": "601556882068-3epq4brnncmgqnbch54utgln29864vie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL-WVrpjlqmV0uumN4dZ1sUIos80zZwKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601556882068-3epq4brnncmgqnbch54utgln29864vie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

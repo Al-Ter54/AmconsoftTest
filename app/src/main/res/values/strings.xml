@@ -1,0 +1,25 @@
+
+<resources>
+    <string name="app_name">Amconsoft Test</string>
+    <string name="EXTRAS_ID">ID</string>
+    <string name="hint_sign_in">Войдите через Google</string>
+    <string name="hint_sign_out">Выход</string>
+    <string name="google_secret_api_key">AIzaSyBPDqnvUONPb_7IcOyCqeuVwr8O-c3dtL4</string>
+    <string name="category_location">Карта</string>
+    <string name="category_personal">Персональная информация</string>
+    <string name="category_address">Адрес</string>
+    <string name="category_company">Информация о компании</string>
+    <string name="category_account">Информация об аккаунте</string>
+    <string name="hint_no_users_available">Пользователи пока не загружены</string>
+    <string name="error_auth_fail">Ошибка авторизации!</string>
+    <string name="hint_tools_bs">BS</string>
+    <string name="hint_tools_company_name">Amconsoft Inc</string>
+    <string name="hint_tools_address_zip">49100</string>
+    <string name="hint_tools_address_city">City</string>
+    <string name="hint_tools_address_suite">Suite</string>
+    <string name="hint_tools_address_street">Street</string>
+    <string name="hint_tools_phone">1-770-736-8031</string>
+    <string name="hint_tools_website">http://www.amconsoft.com</string>
+    <string name="hint_tools_mail">san4ter@gmail.com</string>
+    <string name="hint_tools_name">Tertychniy Alex</string>
+</resources>

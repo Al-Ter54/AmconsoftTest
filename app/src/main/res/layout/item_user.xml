@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+                name="user"
+                type="com.tertychnyi.alex.amconsofttest.usecases.repository.database.entity.UserEntity" />
+        <variable
+                name="listener"
+                type="com.tertychnyi.alex.amconsofttest.presentation.item.IUserItemClickListener" />
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:onClick="@{(view) -> listener.openDetail(user)}">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/indentation_8">
+
+            <TextView
+                    android:id="@+id/tvRvUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_18"
+                    android:paddingBottom="@dimen/indentation_8"
+                    tools:text="@{user.name}" />
+
+            <TextView
+                    android:id="@+id/tvRvUserMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_14"
+                    tools:text="@{user.email}" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>
